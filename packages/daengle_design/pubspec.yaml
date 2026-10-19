@@ -1,0 +1,20 @@
+name: daengle_design
+description: Reusable Flutter components, tokens, typography and form patterns for Daengle.
+publish_to: none
+version: 0.2.0
+environment:
+  sdk: ^3.13.2
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  assets:
+    - assets/fonts/OFL.txt
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard.ttf
